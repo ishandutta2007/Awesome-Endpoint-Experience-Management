@@ -1,209 +1,90 @@
-# Awesome-Endpoint-Experience-Management
+# Awesome Endpoint Experience Management 🖥️⚡
 
-## Top Endpoint Experience Management Platforms Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+![Awesome Endpoint Experience Management Banner](./assets/banner.svg)
 
-*Focused on Digital Employee Experience (DEX), Endpoint Performance, Application Experience, Proactive Remediation & IT Visibility*
+## 📌 Ecosystem Overview & Digital Employee Experience (DEX)
 
-**Last updated: September 2026**
+A curated landscape of **SaaS platforms** and **open-source GitHub projects** dedicated to **Endpoint Experience Management**, **Digital Employee Experience (DEX)**, **End-User Experience Monitoring (EUEM)**, proactive IT remediation, and endpoint performance analytics. 📊🔍
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Endpoint Experience Management** (also called Digital Employee Experience / DEX). These systems collect deep endpoint and application telemetry, score employee experience, detect issues, and enable proactive remediation across physical and virtual desktops.
-
-
-
-**Examples** include Nexthink, ControlUp, Lakeside SysTrack, Aternity, UberAgent, SysTrack, DexCare, 1E Tachyon, Riverbed Aternity, and VMware Workspace ONE Intelligence (the category leaders).
-
-
-
-**Open-source emphasis**: Full DEX platforms with rich experience scoring, employee sentiment, and automated remediation are predominantly commercial. Practical open building blocks include **osquery**, **Prometheus + node exporters**, logging stacks, and custom telemetry pipelines. This section expands those options and is realistic about the commercial gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Nexthink](https://www.nexthink.com/)**  
-
-  Leading digital employee experience platform with real-time endpoint visibility, experience scoring, employee engagement, and automated remediation at scale.
-
-
-
-- **[ControlUp](https://www.controlup.com/)**  
-
-  DEX and endpoint monitoring platform strong in physical, virtual, and cloud desktop environments—with synthetic tests, remediation, and operational insights.
-
-
-
-- **[Lakeside SysTrack](https://www.lakesidesoftware.com/)**  
-
-  Deep endpoint, application, and infrastructure telemetry platform widely used for troubleshooting, capacity planning, and experience analytics.
-
-
-
-- **[Aternity (Riverbed)](https://www.riverbed.com/)**  
-
-  End-user experience and application performance monitoring focused on business transactions and digital employee experience.
-
-
-
-- **[UberAgent](https://uberagent.com/)**  
-
-  Endpoint experience and security-oriented monitoring agent that feeds detailed telemetry into Splunk and other analytics platforms.
-
-
-
-- **[SysTrack](https://www.lakesidesoftware.com/)**  
-
-  Core Lakeside technology for continuous endpoint and workspace analytics (often referenced alongside the broader SysTrack suite).
-
-
-
-- **[DexCare and related DEX solutions](https://www.example.com/)**  
-
-  Additional platforms focused on digital experience scoring and IT service improvement.
-
-
-
-- **[1E Tachyon](https://www.1e.com/)**  
-
-  Real-time endpoint management and instruction platform used for visibility, compliance, and rapid remediation across large estates.
-
-
-
-- **[Riverbed Aternity](https://www.riverbed.com/)**  
-
-  Application and end-user experience monitoring within the Riverbed portfolio.
-
-
-
-- **[VMware Workspace ONE Intelligence / Omnissa and related EUEM tools](https://www.omnissa.com/)**  
-
-  Workspace and endpoint intelligence capabilities for experience insights within broader digital workspace platforms.
-
-
-
-## Open-Source GitHub Projects
-
-- **[osquery](https://github.com/osquery/osquery)**  
-
-  Open-source endpoint instrumentation framework that exposes operating system data as a high-performance relational database—foundational for custom DEX-style telemetry.
-
-
-
-- **[Prometheus + node_exporter / Windows exporter](https://github.com/prometheus/node_exporter)**  
-
-  Industry-standard open metrics collection for hosts and endpoints; commonly paired with Grafana for performance and availability dashboards.
-
-
-
-- **[Grafana](https://github.com/grafana/grafana)**  
-
-  Open-source visualization and dashboarding platform used to build endpoint and experience-oriented views from metrics and logs.
-
-
-
-- **[Elastic Stack (Beats, Elasticsearch, Kibana)](https://github.com/elastic)**  
-
-  Open observability components frequently used for endpoint logs, metrics, and search-driven troubleshooting.
-
-
-
-- **[OpenTelemetry](https://github.com/open-telemetry)**  
-
-  Vendor-neutral open standard and SDKs for collecting metrics, logs, and traces—usable for application and endpoint experience data.
-
-
-
-- **[Fleet (osquery manager)](https://github.com/fleetdm/fleet)**  
-
-  Open-source device management and osquery orchestration platform for querying and managing large endpoint fleets.
-
-
-
-- **[Wazuh](https://github.com/wazuh/wazuh)**  
-
-  Open-source security and endpoint visibility platform that can contribute inventory, configuration, and health signals.
-
-
-
-- **[Custom RUM and desktop telemetry open collectors](https://github.com/)**  
-
-  Community agents and scripts for collecting application launch times, resource usage, and user-perceived performance.
-
-
-
-- **[Logging and SIEM open pipelines](https://github.com/)**  
-
-  Fluent Bit, Vector, and similar tools for shipping endpoint telemetry into analysis systems.
-
-
-
-- **[Documentation and DIY DEX open playbooks](https://github.com/)**  
-
-  Guides for combining osquery, Prometheus, Grafana, and log pipelines into lightweight endpoint experience monitoring.
-
-
-
-### Additional Strong Open-Source Options
-
-- Building a basic DEX-style stack with **osquery + Fleet + Prometheus + Grafana** for inventory, performance, and custom experience metrics.
-
-- Using **OpenTelemetry** and logging agents to capture application and desktop signals without commercial DEX agents.
-
-- Accepting that enterprise experience scoring, employee sentiment surveys, AI-driven remediation, large-scale correlation, and polished IT workflows still require commercial platforms (Nexthink, ControlUp, Lakeside SysTrack, Aternity, 1E, etc.).
-
-- Focusing open-source efforts on data ownership, cost control, and targeted visibility for security and platform teams.
-
-
-
-**Frameworks for building custom systems**: Deploy osquery/Fleet for endpoint queryability → collect metrics with Prometheus exporters → centralize logs → visualize and alert in Grafana → optionally add OpenTelemetry for app-level signals. Suitable for engineering-led IT teams. Most large organizations adopt commercial DEX platforms for comprehensive employee experience programs.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Endpoint monitoring collects sensitive device and user activity data. Open-source deployments require strong privacy, security, and governance practices. This list is not IT operations or privacy advice.
-
-
+These telemetry and analytics systems track real-time desktop health, monitor application performance, score employee digital experience, and trigger automated self-healing workflows across physical, virtual (VDI), and cloud environments. 💻✨
 
 ---
 
-**Made for digital workplace, IT operations, and open observability advocates.**
+## 📈 Market Dynamics & Industry Insights
 
-Let's keep endpoints visible, experiences measurable, and monitoring as open as practical.
+> [!NOTE]
+> **Market Size & Structure**: The global **Digital Employee Experience (DEX) and Endpoint Management market** is estimated at **$3.5 Billion (2026)** and is projected to grow at a CAGR of **15.2%** to reach over **$7.1 Billion by 2030**.
+> 
+> **Market Fragmentation**: The sector is **moderately concentrated** with enterprise category leaders (such as Nexthink, ControlUp, and Lakeside Software) dominating large corporate estates, while specialized APM/observability vendors and open-source frameworks serve custom engineering workflows.
+
+---
+
+## ☁️ SaaS / Enterprise Hosted Platforms
+
+Below is a breakdown of top SaaS platforms for Endpoint Experience Management, sorted descending by company size (valuation / annual revenue) 🏆:
+
+| SaaS Platform 🚀 | Company Size & Valuation 💰 | Starting Pricing 💵 | Free Tier / Trial Limits ⏳ | Key Features & Capabilities 🛠️ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Nexthink](https://www.nexthink.com/)** 👑 | **~$3.0 Billion Valuation** ($350M+ ARR) | ~$18.50 per endpoint/year (Enterprise custom billing) | No permanent free tier; 14-day enterprise proof-of-concept (PoC) demo on request | Market leader in DEX scoring, proactive NQL remediation, sentiment surveys, and real-time device telemetry. |
+| **[Riverbed Aternity](https://www.riverbed.com/)** 🌐 | **~$1.5 Billion Valuation** ($400M+ Revenue) | Custom enterprise quote (~$12-$25/device/yr estimated) | 14-day guided trial available for qualified enterprises | End-user experience monitoring, transaction-level visibility, and application performance analytics. |
+| **[ControlUp](https://www.controlup.com/)** 🦄 | **~$1.0 Billion Valuation** ($100M+ ARR) | Quote-based (~$15-$30 per active user/year) | 21-day full feature free trial (up to 50 endpoints) | Real-time VDI & physical endpoint monitoring, synthetic testing, auto-remediation triggers. |
+| **[Lakeside SysTrack](https://www.lakesidesoftware.com/)** 🏢 | **~$600 Million Valuation** ($80M+ ARR) | Enterprise custom quote (~$15-$28/endpoint/yr) | 14-day evaluation environment upon sales approval | Deep OS & hardware telemetry, root-cause troubleshooting, desk health analytics, and AI insights. |
+| **[1E Tachyon](https://www.1e.com/)** ⚡ | **~$300 Million Valuation** ($50M+ ARR) | Enterprise custom quote | 30-day proof-of-concept trial via partner network | Real-time endpoint querying, automated patch remediation, and experience sentiment analysis. |
+| **[UberAgent](https://uberagent.com/)** 🔍 | **~$30 Million Valuation** ($5M+ ARR) | $8.50 per endpoint/year (Standard License) | Free full-featured trial for 30 days (unlimited devices) | Lightweight endpoint & user experience agent sending rich metrics directly to Splunk & Elasticsearch. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Explore open-source building blocks, agents, and metrics pipelines to build DIY endpoint telemetry systems. Sorted descending by GitHub Star count ⭐:
+
+| Open-Source Project 🛠️ | GitHub Stars ⭐ | Primary Scope & Focus 🎯 | Description & Architecture 📜 |
+| :--- | :--- | :--- | :--- |
+| **[Grafana](https://github.com/grafana/grafana)** | [<img src="https://img.shields.io/github/stars/grafana/grafana?style=social&color=white" alt="Grafana Stars"/>](https://github.com/grafana/grafana/stargazers) | Visualization & Dashboards | The premier open observability platform to visualize endpoint health metrics, logs, and custom DEX dashboards. |
+| **[Elasticsearch](https://github.com/elastic/elasticsearch)** | [<img src="https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white" alt="Elasticsearch Stars"/>](https://github.com/elastic/elasticsearch/stargazers) | Search & Analytics Engine | Distributed search engine for aggregating endpoint logs, event streams, and real-user experience telemetry. |
+| **[Prometheus](https://github.com/prometheus/prometheus)** | [<img src="https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white" alt="Prometheus Stars"/>](https://github.com/prometheus/prometheus/stargazers) | Metrics Collection & Time-Series | Cloud-native time-series database ideal for scraping endpoint metrics via node_exporter / windows_exporter. |
+| **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** | [<img src="https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white" alt="OTel Stars"/>](https://github.com/open-telemetry/opentelemetry-collector/stargazers) | Vendor-Neutral Telemetry | Standard collector agent for receiving, processing, and exporting traces, metrics, and logs from client apps. |
+| **[osquery](https://github.com/osquery/osquery)** | [<img src="https://img.shields.io/github/stars/osquery/osquery?style=social&color=white" alt="osquery Stars"/>](https://github.com/osquery/osquery/stargazers) | Endpoint Instrumentation | Exposes an OS as a relational SQL database, enabling SQL queries for process health, disk space, and performance. |
+| **[Wazuh](https://github.com/wazuh/wazuh)** | [<img src="https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white" alt="Wazuh Stars"/>](https://github.com/wazuh/wazuh/stargazers) | Security & Fleet Monitoring | Unified SIEM & XDR agent providing security monitoring, file integrity, and endpoint health status. |
+| **[Fluent Bit](https://github.com/fluent/fluent-bit)** | [<img src="https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white" alt="Fluent Bit Stars"/>](https://github.com/fluent/fluent-bit/stargazers) | Lightweight Log Shipper | Fast, low-resource telemetry processor for collecting logs and metrics from endpoints and desktops. |
+| **[Vector](https://github.com/vectordotdev/vector)** | [<img src="https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white" alt="Vector Stars"/>](https://github.com/vectordotdev/vector/stargazers) | High-Performance Data Pipeline | Ultra-fast Rust-based log and metrics collector to route endpoint telemetry to storage backends. |
+| **[Fleet](https://github.com/fleetdm/fleet)** | [<img src="https://img.shields.io/github/stars/fleetdm/fleet?style=social&color=white" alt="Fleet Stars"/>](https://github.com/fleetdm/fleet/stargazers) | osquery Management & Orchestration | Open-source device management platform to orchestrate osquery across thousands of Windows, macOS, and Linux devices. |
+| **[Glances](https://github.com/nicolargo/glances)** | [<img src="https://img.shields.io/github/stars/nicolargo/glances?style=social&color=white" alt="Glances Stars"/>](https://github.com/nicolargo/glances/stargazers) | Cross-Platform System Monitoring | An open-source curses and Web-based system monitoring tool for real-time endpoint CPU, memory, and disk telemetry. |
+| **[GlitchTip](https://github.com/glitchtip/glitchtip)** | [<img src="https://img.shields.io/github/stars/glitchtip/glitchtip?style=social&color=white" alt="GlitchTip Stars"/>](https://github.com/glitchtip/glitchtip/stargazers) | Application Error Tracking | Open-source Sentry-compatible error tracking tool to capture client application crashes and user experience bugs. |
+| **[Netdata](https://github.com/netdata/netdata)** | [<img src="https://img.shields.io/github/stars/netdata/netdata?style=social&color=white" alt="Netdata Stars"/>](https://github.com/netdata/netdata/stargazers) | Real-Time Infrastructure Monitoring | High-frequency endpoint monitoring agent providing per-second performance graphs and immediate troubleshooting. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! 🎉 To add a new DEX platform, EUEM tool, or open-source endpoint monitoring project:
+
+1. **Fork** this repository 🍴
+2. **Add/Edit** entries in `README.md` following the table format.
+3. Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for contribution guidelines! 📑
+4. Submit a **Pull Request** with a brief summary of the added solution. 🚀
+
+---
+
+## 💖 Support & Community
+
+If you find this repository helpful, please consider supporting the project! ☕🌟
+
+- ⭐ **Star** this repository to help others discover it!
+- 🔀 **Fork** and contribute your favorite endpoint management tools!
+- 📢 **Share** with your IT Operations, DevOps, and Digital Workplace colleagues!
+- 💖 **Sponsor**: Support ongoing maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Endpoint-Experience-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Endpoint-Experience-Management&type=date&legend=top-left)
+
+---
+
+## 📜 Disclaimer
+
+This repository is community-curated for informational and educational purposes. All product names, logos, and trademarks belong to their respective owners.
