@@ -38,9 +38,9 @@ Below is a breakdown of top SaaS platforms for Endpoint Experience Management, s
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore open-source building blocks, agents, and metrics pipelines to build DIY endpoint telemetry systems. Sorted descending by GitHub Star count ⭐:
+Explore open-source building blocks, agents, and metrics pipelines to build DIY endpoint telemetry systems. Sorted descending by GitHub Stars_Count ⭐:
 
-| Open-Source Project 🛠️ | GitHub Stars ⭐ | Primary Scope & Focus 🎯 | Description & Architecture 📜 |
+| Open-Source Project 🛠️ | GitHub_Stars ⭐ | Primary Scope & Focus 🎯 | Description & Architecture 📜 |
 | :--- | :--- | :--- | :--- |
 | **[Grafana](https://github.com/grafana/grafana)** | [<img src="https://img.shields.io/github/stars/grafana/grafana?style=social&color=white" alt="Grafana Stars"/>](https://github.com/grafana/grafana/stargazers) | Visualization & Dashboards | The premier open observability platform to visualize endpoint health metrics, logs, and custom DEX dashboards. |
 | **[Elasticsearch](https://github.com/elastic/elasticsearch)** | [<img src="https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white" alt="Elasticsearch Stars"/>](https://github.com/elastic/elasticsearch/stargazers) | Search & Analytics Engine | Distributed search engine for aggregating endpoint logs, event streams, and real-user experience telemetry. |
